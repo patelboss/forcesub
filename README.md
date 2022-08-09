@@ -8,7 +8,7 @@ Find it On Telegram As [@Force_subscribed_bot](https://t.me/Force_subscribed_bot
 
 # 👨‍💻 Deploy:
 ### -Easy Way
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/patelboss/force-subscribe)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/patelboss/forcesub)
 
 # ⚙ Commands :
 
