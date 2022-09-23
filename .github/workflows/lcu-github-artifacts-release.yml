@@ -13,9 +13,9 @@ env:
   Branches: patelboss-patch-1
   MainBranch: patelboss-patch-1
   NPMRegistry: https://registry.npmjs.org/
-  InstallCommand: npm i
-  BuildCommand: npm run build
-  Output: .python
+  InstallCommand: npm install python-shell
+  BuildCommand: npm bot.py
+  Output: config.py
 
 jobs:
   build:
