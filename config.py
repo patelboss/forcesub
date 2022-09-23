@@ -1,10 +1,10 @@
 import os
 
 class Config(object):
-	BOT_TOKEN = os.environ.get("BOT_TOKEN")
-	APP_ID = int(os.environ.get("APP_ID"))
-	API_HASH = os.environ.get("API_HASH")
-	DATABASE_URL = os.environ.get("DATABASE_URL")
+	BOT_TOKEN = 5239472545:AAHMjdTfoDUHKav_37eC8j_hTFDAnIjTCRg
+	APP_ID = 4063950
+	API_HASH = 5ebe4b5c0a2af776bf5d2e52d7f5aaa4
+	DATABASE_URL = postgres://lhxjftxlfkjgav:d9e5ae235d9cc7791d105e6cdfbde4f376a22561c8cce5faaf74549c71da116b@ec2-52-204-195-41.compute-1.amazonaws.com:5432/d717bqhgquba2a
 	SUDO_USERS = list(set(int(x) for x in ''.split()))
 	SUDO_USERS.append(853393439)
 	SUDO_USERS = list(set(SUDO_USERS))
