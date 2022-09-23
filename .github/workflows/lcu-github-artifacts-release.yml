@@ -2,20 +2,20 @@ name: patelboss/forcesub
 
 on:
   push:
-    branches: [main]
+    branches: [patelboss-patch-2]
   pull_request:
-    branches: [main]
+    branches: [patelboss-patch-2]
 
 permissions: write-all
 
 env:
   CI: false
-  Branches: main
-  MainBranch: main
+  Branches: patelboss-patch-2
+  MainBranch: patelboss-patch-2
   NPMRegistry: https://registry.npmjs.org/
-  InstallCommand: npm node.js
+  InstallCommand: npm app.json
   BuildCommand: npm install python-shell
-  Output: app.json
+  Output: ./build
 
 jobs:
   build:
